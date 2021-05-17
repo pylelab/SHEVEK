@@ -10,7 +10,8 @@ make
 ## Run the SHEVEK program interactively ##
 
 ```bash
-./shevek
+cd MESSAGE
+../shevek
 ```
 ```
 Enter alignment file name (include extension): example.pir
