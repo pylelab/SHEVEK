@@ -2,7 +2,7 @@
 A computational method for predicting intramolecular and intermolecular biopolymer interactions
 
 ## Install ##
-The original SHEVEK was developed using the (now obsolete) Microsoft Visual C++ 6.0. This package has rewritten part of SHEVEK to make it compatible with gcc.
+The original SHEVEK was originally developed using the (now obsolete) Microsoft Visual C++ 6.0. It is not partly rewritten to make it compatible with gcc on Linux.
 ```bash
 make
 ```
