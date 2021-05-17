@@ -20,33 +20,30 @@ II. Files:
 
 	The Microsoft Visual C++ 6.0 Programming environment was used:
 
-	The workspace file is: Shevek.dsw
-	The project file is: Shevek.dsp
-
 	Source files include:
 		
-		ApplyThresh.c
-		ChainElim.c
+		applythresh.c
+		chainelim.c
 		definitions.h
-		FASTEXP2.C
-		FASTEXP2.H
-		FASTEXP2.INC
-		GETTIMER.C
-		MainExactPScore.c
-		MainMisalign.c
-		MainScreening.c
-		MainShevek.c
-		MisalignNRPang.c
+		fastexp2.c
+		fastexp2.h
+		fastexp2.inc
+		gettimer.c
+		mainexactpscore.c
+		mainmisalign.c
+		mainscreening.c
+		mainshevek.c
+		misalignnrpang.c
 		nrutilp.h
-		NumRecPang.c
-		NumRecUtilities.c
-		PRCERR.C
-		RandNumGen.c
-		RCONT2p.H
-		Rcount2Pang.C
+		numrecpang.c
+		numrecutilities.c
+		prcerr.c
+		randnumgen.c
+		rcont2p.h
+		rcount2pang.c
 		shevek.h
-		SUPPORT.C
-		SUPPORT.H	
+		support.c
+		support.h	
 	
 	Text files include:
 
@@ -64,13 +61,13 @@ III. General Program Structure:
 
 	FUNCTION			PURPOSE			FOUND IN FILE
 	
-	main( )				[driving function]	MainShevek.c
+	main( )				[driving function]	mainshevek.c
 	 |
 	 |
-	 -------- openfile( )     	[reads alignment]	MainShevek.c
+	 -------- openfile( )     	[reads alignment]	mainshevek.c
 	 |
-	 -------- score_manager( )	[scoring]		MainShevek.c
+	 -------- score_manager( )	[scoring]		mainshevek.c
 	 |
-	 -------- screener( )		[screening]		MainScreening.c
+	 -------- screener( )		[screening]		mainscreening.c
 	 |
-	 -------- misalign_identifier( )[misalignment]		MainMisalign.c
+	 -------- misalign_identifier( )[misalignment]		mainmisalign.c
