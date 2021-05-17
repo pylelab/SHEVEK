@@ -179,5 +179,5 @@ Type 'exit' to exit program: exit
 
 ## Reference ## 
 Phillip S. Pang, Eckhard Jankowsky, Leven M. Wadley, and Anna Marie Pyle.
-["Prediction of functional tertiary interactions and intermolecular interfaces from primary sequence data."](https://doi.org/10.1002/jez.b.21024)
+"[Prediction of functional tertiary interactions and intermolecular interfaces from primary sequence data.](https://doi.org/10.1002/jez.b.21024)"
 Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 304, no. 1 (2005): 50-63.
