@@ -1,0 +1,26 @@
+
+
+********************************************************************
+********************************************************************
+	WARNING WARNING WARNING WARNING WARNING WARNING 
+********************************************************************
+********************************************************************
+
+The number of groups (as defined by linkage between positions)
+is less then the number of predictions, indicating that one 
+of the predictions is redundant.
+
+This is most likely due to a redundancy in DF values, P values,
+and very similar V values. 	
+
+For absolute accuracy, my best suggestion is to eliminate both 
+of these predictions.
+
+Alternatively, run the program for higher P; 
+
+A final alternative is to call up the frequency table for these
+two interactions, and by inspection attempt to determine which
+one seems reasonable. (Don't know the best way to do this.)
+ 
+********************************************************************
+ 

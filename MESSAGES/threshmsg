@@ -1,0 +1,38 @@
+
+
+********************************************************************
+********************************************************************
+	Threshold Application Process (Screening)
+********************************************************************
+********************************************************************
+
+USER: having reviewed the suggested plots as well as the suggested 
+thresholds caclulated above, Shevek will now request the thresholds 
+that you have decided upon. If you are unsure of what to enter,
+use as default values the thresholds stated above.
+ 
+WARNINGS:
+
+(1) Important Notice:
+
+The suggested thresholds represent values that will minimize the
+possibility of false-positives. Consequently, selection of 
+thresholds lower than the suggested ones may result in false 
+predictions. If no data points are above these thresholds, see
+warning number (2) and/or: Altering the sequence set by the
+addition of more sequences and/or increase the diversity of the 
+sequences that are chosen.
+
+(2) Given The Above:
+
+At the begining of the program, an INTEGER PRECISION was entered
+for the calculation of the P score. If the suggested -log(P) 
+threshold is greater than that entered PRECISION, then Shevek should
+be rerun with a PRECISION value at least +1 greater than the 
+suggested -log(P) threshold. In other words, if you entered 4 for 
+the PRECISION and the suggested -log(p) threshold is 5, then it is 
+highly advised that Shevek be rerun with a precision equal to or
+greater than 6.
+ 	
+********************************************************************
+ 

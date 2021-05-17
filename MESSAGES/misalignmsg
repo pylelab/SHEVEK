@@ -1,0 +1,24 @@
+
+
+********************************************************************
+********************************************************************
+	Misalignment Identifcation Process
+********************************************************************
+********************************************************************
+
+Shevek will now attempt to identify misaligned sequences. Shevek 
+will output a file entitled, 'misalign.txt', which will list 
+sequences identified as possibly misaligned by categorical 
+statistical analysis.
+	
+This information can be used to re-align the sequence alignment.
+After such re-alignment, rerun Shevek with the new alignment for 
+increased prediction accuracy.
+	
+Stop such iteration when the number/identity of possibly misaligned
+sequences no longer changes -- or further re-alignment is not deemed 
+possible.
+
+********************************************************************
+ 	
+

@@ -1,0 +1,20 @@
+
+
+********************************************************************
+********************************************************************
+	Thresholds Applied: Preliminary Analysis Complete
+********************************************************************
+********************************************************************
+
+Shevek has used the input thresholds to perform a preliminary screen
+of all the possible associations, eliminating all associations
+not possessing the threshold criteria.
+
+The output from this preliminary screen can be viewed under file:
+'pvscan.txt'
+
+Shevek will not eliminate all intersecting interactions within this
+list.
+
+********************************************************************
+
